@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+h1, h2 {
+  margin: 10px 0;
+}
+
+.date, .seconds {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.gold-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.coin-img {
+  width: 30px;
+  height: 30px;
+}
+
+.house-container {
+  margin-top: 20px;
+}
+
+.house-img {
+  width: 150px;
+  height: auto;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.controls {
+  margin-top: 20px;
+}
